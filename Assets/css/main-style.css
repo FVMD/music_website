@@ -1,1 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
+html, body {
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    margin: 0;
+    color: #10471c;
+    background-image: url("as../../Assets/images/snow.png");
+    background-color: black;
+}
 
+.main-wrapper {
+    max-width: 85rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    background-color: #FFDAB9;
+
+}
+
+.section-nav-bar {
+    display: flex;
+    flex-flow: row, nowrap;
+    justify-content: space-evenly;
+}
+.section-nav-bar a {
+    background: #25afa1;
+    padding: 1rem;
+    height: 10rem;
+    line-height: 8rem;
+    color: white;
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+}
+.section-header {
+    text-align: center;
+}
+.section-header a {
+    color: #E6AC27;
+}
+a:hover, a:visited, a:link, a:active
+{
+    text-decoration: none;
+}
